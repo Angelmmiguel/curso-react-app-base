@@ -5,22 +5,14 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Redux
-import { Provider } from 'react-redux';
-import store from './store';
-
 // Importamos los componentes
-import { Router, Route, hashHistory } from 'react-router';
-import BaseContainer from './containers/BaseContainer';
+import Header from './components/Header';
+import SearchContainer from './containers/SearchContainer';
 import DetailsContainer from './containers/DetailsContainer';
 
 ReactDOM.render(
-  <Provider store={ store }>
-    <Router history={ hashHistory }>
-      <Route path="/" component={ BaseContainer }>
-        <Route path=":user/:repo" component={ DetailsContainer }/>
-      </Route>
-    </Router>
-  </Provider>,
+  <Header />,
+  //<SearchContainer />,
+  //<DetailsContainer repo="curso-react-app" user="Angelmmiguel"/>,
   document.getElementById('root')
 );
