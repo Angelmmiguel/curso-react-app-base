@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 
 // Importamos los componentes
-import Header from '../../components/Header';
+
 
 /**
  * Muestra un buscador, así como la lista de resultados.
@@ -41,7 +41,6 @@ class SearchContainer extends React.Component {
    */
   render() {
     return <main className="container">
-      <Header />
       <h1>Búsqueda</h1>
     </main>
   }

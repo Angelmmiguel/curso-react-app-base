@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 
 // Componentes
-import Header from '../../components/Header';
 
 /**
  * Este container muestra los detalles para un repositorio concreto
@@ -40,7 +39,6 @@ class DetailsContainer extends React.Component {
    */
   render() {
     return <main className="container">
-      <Header />
       <h1>Versiones!</h1>
     </main>;
   }
