@@ -11,15 +11,15 @@ class DetailsContainer extends React.Component {
   stubData() {
     let repo = {
       name: 'v1.0',
-      html_url: '',
+      html_url: 'https://github.com/Angelmmiguel/material_icons/releases/tag/v2.2.0',
       author: {
         login: 'Angel',
-        avatar_url: '',
+        avatar_url: 'https://avatars.githubusercontent.com/u/4056725?v=3',
         html_url: 'https://github.com/Angelmmiguel'
       },
       published_at: 12018092381213,
-      zipball_url: '',
-      tarball_url: ''
+      zipball_url: 'https://github.com/Angelmmiguel/material_icons/archive/v2.2.0.zip',
+      tarball_url: 'https://github.com/Angelmmiguel/material_icons/archive/v2.2.0.tar.gz'
     }
     return [
       Object.assign({}, repo),

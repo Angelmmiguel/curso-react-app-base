@@ -16,7 +16,7 @@ class SearchContainer extends React.Component {
       full_name: 'My Repository',
       owner: {
         login: 'Angel',
-        avatar_url: '',
+        avatar_url: 'https://avatars.githubusercontent.com/u/4056725?v=3',
         html_url: 'https://github.com/Angelmmiguel'
       },
       stargazers_count: 10,
