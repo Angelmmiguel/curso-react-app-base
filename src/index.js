@@ -13,6 +13,6 @@ import Header from './components/Header';
 ReactDOM.render(
   <Header />,
   // <SearchContainer />,
-  // <DetailsContainer repo="curso-react-app" user="Angelmmiguel"/>,
+  // <DetailsContainer />,
   document.getElementById('root')
 );
