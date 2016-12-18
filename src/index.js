@@ -7,12 +7,12 @@ import ReactDOM from 'react-dom';
 
 // Importamos los componentes
 import Header from './components/Header';
-import SearchContainer from './containers/SearchContainer';
-import DetailsContainer from './containers/DetailsContainer';
+// import SearchContainer from './containers/SearchContainer';
+// import DetailsContainer from './containers/DetailsContainer';
 
 ReactDOM.render(
   <Header />,
-  //<SearchContainer />,
-  //<DetailsContainer repo="curso-react-app" user="Angelmmiguel"/>,
+  // <SearchContainer />,
+  // <DetailsContainer repo="curso-react-app" user="Angelmmiguel"/>,
   document.getElementById('root')
 );
